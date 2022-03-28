@@ -4,12 +4,12 @@ import org.testng.annotations.Test;
 
 public class HospitalTest {
 
-	@Test(groups="RegressionTest")
+	@Test
 	public void patient() {
 		System.out.println("patient admission done");
 	}
 	
-	@Test(groups="SmokeTest")
+	@Test
 	public void doctor() {
 		System.out.println("doctor checking done");
 	}
@@ -22,6 +22,4 @@ public class HospitalTest {
 		public void accounts() {
 			System.out.println("accounts created");
 		}
-
-	
 }
