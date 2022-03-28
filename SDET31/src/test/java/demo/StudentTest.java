@@ -4,12 +4,12 @@ import org.testng.annotations.Test;
 
 public class StudentTest {
 
-	@Test(groups="SmokeTest")
+	@Test
 	public void student() {
 		System.out.println("Student admission done");
 	}
 	
-	@Test(groups="RegressionTest")
+	@Test
 	public void master() {
 		System.out.println("Master teaching done");
 	}
