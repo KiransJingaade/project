@@ -13,4 +13,6 @@ public class StudentTest {
 	public void master() {
 		System.out.println("Master teaching done");
 	}
+	StudentTest obj = new StudentTest();
+	obj.student;
 }
